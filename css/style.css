@@ -1,0 +1,32 @@
+/* rests */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  background-color: #0020f4;
+}
+.logo {
+  width: 115px;
+}
+.nav_link {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/*  */
+.gallery_image {
+  display: inline-block;
+  width: 219px;
+  height: 219px;
+}
