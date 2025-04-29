@@ -1,4 +1,5 @@
-/* rests */
+/* reset */
+@import url("//cdn.web-fonts.ge/fonts/bpg-classic-medium/css/bpg-classic-medium.min.css");
 * {
   margin: 0;
   padding: 0;
@@ -13,20 +14,85 @@ ul {
 a {
   text-decoration: none;
 }
-.container {
+/* container */
+
+/* header */
+header {
   background-color: #0020f4;
+  height: 32vh;
+  font-family: "ALK Rounded Nusx Med";
 }
-.logo {
-  width: 115px;
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12.5vw;
 }
+
+.nav_list {
+  display: flex;
+  gap: 40px;
+}
+
 .nav_link {
   font-size: 16px;
   color: #ffffff;
+  text-transform: uppercase;
+}
+.logo img {
+  width: 132px;
 }
 
-/*  */
+/* Contact Button  */
+.nav_list li:last-child .nav_link {
+  background-color: #ffffff;
+  color: #171717;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+/* main_image */
+.main_image {
+  margin: -15vh 19vw 30px;
+}
+
+/* gallery */
+.gallery {
+  margin: 0 19vw;
+  font-family: "BPG Classic Medium", sans-serif;
+}
 .gallery_image {
   display: inline-block;
-  width: 219px;
-  height: 219px;
+  width: 19%;
+  gap: 25px;
 }
+.gallery_images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery_title {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.gallery_text {
+  margin: 60px 6vw 0;
+}
+.more_info_button {
+  display: flex;
+  justify-content: center;
+  margin: 58px 0 180px;
+}
+
+.more_info_button a {
+  background-color: #0a22f4;
+  color: #ffffff;
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 28px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+/* footer */
